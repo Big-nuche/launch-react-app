@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+//import App from './app';
+import Rocket from './rocketApi';
+import Header from './components/header';
+import Footer from './components/footer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Header/>
+    <div className='container'>
+      <Rocket/> 
+    </div>
+    <Footer/>
+ 
   </React.StrictMode>,
   document.getElementById('root')
 );
