@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/launch-react-app/static/js/main.10736840.js",
+    "static/js/787.2ecd0f4f.chunk.js": "/launch-react-app/static/js/787.2ecd0f4f.chunk.js",
+    "index.html": "/launch-react-app/index.html",
+    "main.10736840.js.map": "/launch-react-app/static/js/main.10736840.js.map",
+    "787.2ecd0f4f.chunk.js.map": "/launch-react-app/static/js/787.2ecd0f4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.10736840.js"
+  ]
+}
