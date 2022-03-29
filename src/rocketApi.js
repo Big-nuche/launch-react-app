@@ -13,8 +13,8 @@ export default class RocketList extends React.Component {
     }
   
     componentDidMount() {
-        //axios.get('https://ll.thespacedevs.com/2.2.0/launch/upcoming/?is_crewed=false&include_suborbital=true&related=false&hide_recent_previous=false')
-        axios.get('response.json')
+        axios.get('https://ll.thespacedevs.com/2.2.0/launch/upcoming/?is_crewed=false&include_suborbital=true&related=false&hide_recent_previous=false')
+        //axios.get('response.json')
         .then((results) => {
             console.log(results.data.results)  
             this.setState({ launches: results.data.results });          
