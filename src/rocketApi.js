@@ -22,10 +22,8 @@ export default class RocketList extends React.Component {
     }
   
     render() {
-      const launches = this.state.launches.map((launch, i) => (
-        
-          <LaunchCard key={launch.id} launch={launch}></LaunchCard>
-        
+      const launches = this.state.launches.map((launch, i) => (        
+          <LaunchCard key={launch.id} launch={launch}></LaunchCard>        
       ));
   
       return (
